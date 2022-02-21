@@ -1,4 +1,4 @@
-package com.mzaini30.kalkulatortoko;
+package com.mzaini30.eisenhowermatrix;
 
 import android.content.Intent;
 import android.net.Uri;
@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         // my banner ad id: ca-app-pub-2878374163061282/6615438108
         // change to your own ad id
         // Change in MainActivity.java and activity_main.xml
-        MobileAds.initialize(this, "ca-app-pub-9804745932553029/2694518937");
+        MobileAds.initialize(this, "ca-app-pub-3940256099942544/6300978111");
         mAdView = (AdView)findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
@@ -59,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
 
         // replace this with your own link/web app address
         if (savedInstanceState == null) {
-            webview.loadUrl("file:///android_asset/index.html");
+            webview.loadUrl("file:///android_asset/build/index.html");
         }
     }
 
