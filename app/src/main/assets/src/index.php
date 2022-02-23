@@ -29,7 +29,10 @@
 			</tbody>
 		</table>
 		<div class="menu"> <!-- 38px -->
-			<a href="https://play.google.com/store/apps/details?id=com.mzaini30.eisenhowermatrix" class="btn btn-outline-secondary btn-sm">review app</a>
+			<div>
+				<a href="https://play.google.com/store/apps/details?id=com.mzaini30.eisenhowermatrix" class="btn btn-outline-secondary btn-sm">review app</a>
+				<a href="https://www.nihbuatjajan.com/mzaini30" class="btn btn-outline-secondary btn-sm">donate</a>
+			</div>
 
 			<button v-if='kunci' @click='kunci = false' class="btn btn-outline-primary btn-sm">edit</button>
 			<button v-else @click='simpan' class="btn btn-outline-success btn-sm">save</button>
